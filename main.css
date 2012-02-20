@@ -1,0 +1,60 @@
+/* MovieFinder:main.css */
+
+/* iPhone4+ */
+@media only screen and (max-width: 960px) and (orientation:portrait){
+	#header {background:url("img/logo.png") 50% 0% no-repeat!important;height: 75px;}
+	#postercell {width:50%!important;}
+	#postercell img{padding-right:5%!important;padding-top:5px;}
+	#infocell {width: 40%!important;}
+}
+@media only screen and (max-width: 960px) and (orientation:landscape){
+	#header {background:url("img/logo.png") 50% 0% no-repeat!important;height: 75px;}
+	#postercell {width:50%!important;}
+	#postercell img{padding-right:5%!important;padding-top:5px;}
+	#infocell {width: 40%!important;}
+}
+
+/* iPhone3Gs */
+@media only screen and (max-width: 480px) and (orientation:portrait){
+	#header {background:url("img/logo-small.png") 50% 0% no-repeat !important;height: 55px!important;}
+	#postercell {width:47%!important;}
+	#postercell img{padding-right:4%!important;}
+	#mob{display:inline!important;}
+	#ipad{display:none!important;}
+	#infocell {width: 53%!important;}
+}
+@media only screen and (max-width: 480px) and (orientation:landscape){
+	#header {background:url("img/logo-small.png") 0% 0% no-repeat !important;height: 55px!important;}
+	#postercell {width:35%!important;}
+	#postercell img{padding-right:4%!important;}
+	#mob{display:inline!important;}
+	#ipad{display:none!important;}
+	#infocell {width: 55%!important;}
+}
+
+/* Main Page */
+BODY {background-color: #222222;}
+a.ui-link-inherit {padding-left: 75px!important;}
+#header {background:url("img/logo.png") 0% 0% no-repeat;height: 75px;}
+#header h1{text-indent:-999px;margin:0 0;}
+#notfound {background:url("img/alert.png") 50% 0% no-repeat;text-align:center;height:60px;}
+#notfound h5 {margin-top:30px;padding-top:50px;}
+#loader {background:url("img/loader.gif") 50% 0% no-repeat;height: 75px;}
+#loader h4{text-indent:-999px;margin:0 0;}
+
+/* Detail Page */
+#mob{display:none;}
+#ipad{display:inline;}
+#detailpanel {border-top: 1px solid rgba(255, 255, 255, 0.3);border-radius: 1em 1em 1em 1em;border-bottom: 1px solid rgba(255, 255, 255, 0.3)}
+#grid{margin-top: 10px;margin-bottom: 10px;}
+#postercell {text-align:right;width:28%;}
+#postercell img{padding-right:5%;padding-top:5px;}
+#infocell h2{margin-top:0px;margin-bottom:2px;}
+#infocell h1{margin-bottom:0px;margin-top:0px;}
+#rating-subtitle{font-size:0.8em;margin-top:0px;margin-bottom:2px;}
+#genre {font-size:0.9em;margin-top:0px;margin-bottom:2px;}
+#cast {font-size:0.9em;margin-top:15px;margin-bottom:2px;}
+h1.passed {color:#66cc33;}
+h1.failed {color:#cc3333;}
+#detail-loader {background:url("img/loader.gif") 50% 0% no-repeat;height: 75px;}
+#detail-loader h4{text-indent:-999px;margin:0 0;}
